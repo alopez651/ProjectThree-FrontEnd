@@ -23,8 +23,8 @@ import javax.servlet.http.HttpSession;
 @RestController
 @RequestMapping("/post")
 //@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
-//@CrossOrigin(origins = "http://maxwellfrontend.s3-website-us-east-1.amazonaws.com", allowCredentials = "true")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://p3-front-bucket.s3-website-us-east-1.amazonaws.com", allowCredentials = "true")
+//@CrossOrigin(origins = "*")
 public class PostController {
 
 	private final PostService postService;

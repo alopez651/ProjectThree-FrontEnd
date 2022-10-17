@@ -10,8 +10,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/users")
 //@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
-//@CrossOrigin(origins = "http://maxwellfrontend.s3-website-us-east-1.amazonaws.com", allowCredentials = "true")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://p3-front-bucket.s3-website-us-east-1.amazonaws.com", allowCredentials = "true")
+//@CrossOrigin(origins = "*")
 public class UserController {
     @Autowired
     UserService userService;
